@@ -43,7 +43,7 @@ A Chunk usually consists of:
 * A Container Component ✓
 * A Presentation Component ✓
 
-# A Real-World Chunk In Action
+# Writing A Real-World Chunk
 
 To see a Chunk in action, check the Auth Chunk, that comes with Chunky. It includes the following:
 
