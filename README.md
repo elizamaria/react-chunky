@@ -3,18 +3,17 @@
   <a href="https://github.com/idancali/react-chunky">
     <img height="256" src="https://raw.githubusercontent.com/idancali/react-chunky/master/logo.png">
   </a>
-  <p align="center"> <b> Chunky </b> Saves Your React App From Spaghetti Code By Splitting It Into Manageable Chunks. </p>
+  <p align="center"> <b> Chunky </b> Saves Your React Mobile And Web Apps From Spaghetti Code By Splitting Them Into Manageable Chunks. </p>
 </p>
 
 # React Chunky
-A modular approach to building React apps
 [![Version](https://img.shields.io/npm/v/react-chunky.svg)](https://www.npmjs.com/package/react-chunky)
 [![Author](https://img.shields.io/badge/say%20hi-%40idancali-green.svg)](https://twitter.com/idancali)
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fidancali)
 
 # Overview
 
-Chunky helps you build solid React applications, faster and easier. It does that by splitting up parts of your application into more manageable sections - or Chunks.
+Chunky helps you build solid React Web and Mobile apps, faster and easier. It does that by splitting up parts of your app into more manageable sections - or Chunks.
 
 # Installation
 
@@ -60,7 +59,7 @@ To see a Chunk in action, check the Auth Chunk, that comes with Chunky. It inclu
 * The Container Component:
 [lib/data/containers/auth.js](https://github.com/idancali/react-chunky/tree/master/lib/data/containers/auth.js)
 
-The Presentation Component is implemented as part of the host app. A simple, plain React component will do. To add connect it to the Container Component, all you need to do is to wrap it with the container. Here's a sample of what that would look like:
+The Presentation Component is implemented as part of the host app. A simple, plain React component will do. To connect it to the Container Component, all you need to do is to wrap it with the container. That's all. Here's a sample of what that would look like:
 
 ```javascript
 import React, { Component } from 'react'
