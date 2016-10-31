@@ -1,9 +1,8 @@
-
 <p align="center">
   <a href="https://github.com/idancali/react-chunky">
     <img height="256" src="https://raw.githubusercontent.com/idancali/react-chunky/master/logo.png">
   </a>
-  <p align="center"> <b> Chunky </b> Saves Your React Mobile And Web Apps From Spaghetti Code By Splitting Them Into Manageable Chunks. </p>
+  <p align="center"> <b> React Chunky </b> Saves Your React Mobile And Web Apps From Spaghetti Code By Splitting Them Into Manageable Chunks. </p>
 </p>
 
 # React Chunky
@@ -13,7 +12,7 @@
 
 # Overview
 
-Chunky helps you build solid React Web and Mobile apps, faster and easier. It does that by splitting up parts of your app into more manageable sections - or Chunks.
+React Chunky helps you build solid React Web and Mobile apps, faster and easier. It does that by splitting up parts of your app into more manageable sections - or Chunks.
 
 # Installation
 
