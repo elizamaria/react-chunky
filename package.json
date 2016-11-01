@@ -1,6 +1,7 @@
 {
   "name": "react-chunky",
-  "version": "0.1.2",
+  "version": "0.1.3",
+  "description": "React Chunky helps you write more modular React Mobile and Web apps.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/idancali/react-chunky.git"
