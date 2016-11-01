@@ -2,7 +2,7 @@
   <a href="https://github.com/idancali/react-chunky">
     <img height="256" src="https://raw.githubusercontent.com/idancali/react-chunky/master/logo.png">
   </a>
-  <p align="center"> <b> React Chunky </b> Saves Your React Mobile And Web Apps From Spaghetti Code By Splitting Them Into Manageable Chunks. </p>
+  <p align="center"> <b> React Chunky </b> Helps You Digest Your React Mobile And Web Apps In Manageable Chunks. </p>
 </p>
 
 # React Chunky
