@@ -1,10 +1,21 @@
 {
   "name": "react-chunky",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "React Chunky helps you write more modular React Mobile and Web apps.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/idancali/react-chunky.git"
+  },
+  "scripts": {
+    "savor": "savor",
+    "test": "savor test",
+    "lint": "savor lint",
+    "coverage": "savor coverage",
+    "codeclimate": "savor codeclimate"
+  },
+  "babel": {
+    "plugins": ["transform-react-jsx"],
+    "presets": ["react-native", {}]
   },
   "author": "I. Dan Calinescu <idancalinescu@gmail.com>",
   "license": "MIT",
@@ -24,5 +35,8 @@
     "redux-promise": "^0.5.3",
     "redux-thunk": "^2.1.0",
     "reselect": "^2.5.4"
+  },
+  "devDependencies": {
+    "savor": "^0.2.13"
   }
 }
