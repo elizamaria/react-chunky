@@ -36,6 +36,9 @@ export default class AuthenticateOperation extends RemoteOperation {
         if(this.props.config.apiAuthTypeImplementation && this.props.config.apiAuthTypeImplementation === 'simple'){
           return cacheAuthToken(json.token)
         }
+        else if(this.props.config.apiAuthTypeImplementation && this.props.config.apiAuthTypeImplementation === 'basic'){
+          return cacheAuthToken(json.access_token)
+        }
         return cacheAuthToken(new Token(json))
     }
 
